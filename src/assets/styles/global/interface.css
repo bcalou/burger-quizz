@@ -1,0 +1,11 @@
+.ketchup {
+  color: var(--ketchup);
+}
+
+.mayo {
+  color: var(--mayo);
+}
+
+* {
+  box-sizing: border-box;
+}
