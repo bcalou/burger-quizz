@@ -1,124 +1,129 @@
 const nuggets = [
   {
     question: {
-      text: "Combien de temps pour rallier Châteaurenaud à pied, depuis la statue Carnot d'Angoulême ?"
+      text: `Lequel de ces mots ne désigne pas une tentative d'obtenir des informations sensibles de la part d'un utilisateur grâce à un faux site ?`,
     },
     answers: {
       a: {
-        text: "9h 12min"
+        text: 'Le phishing',
       },
       b: {
-        text: "8h 27min",
+        text: `L'hameçonnage`,
       },
       c: {
-        text: "6h 41min",
-        correct: true
+        text: `Le fouinage`,
+        correct: true,
       },
       d: {
-        text: "4 jours 6h 32min, si c'est à cloche-pied"
-      }
-    }
+        text: 'Le filoutage',
+      },
+    },
   },
   {
     question: {
-      text: "Qu'est-ce que des silènes ?"
+      text: 'En un an, quelle durée de vidéo est uploadée sur Youtube ?',
     },
     answers: {
       a: {
-        text: "Un genre de plantes d'Europe occidentale",
-        correct: true
+        text: 'Un an, parce que Youtube traite les vidéos une par une',
       },
       b: {
-        text: "Des pièces de menuiserie"
+        text: "89 ans, presque aussi long que la vie de la reine d'Angleterre",
       },
       c: {
-        text: "Des arthropodes marins fossiles"
+        text:
+          '350 ans, à cette époque là la Bastille était encore debout mon bon monsieur',
       },
       d: {
-        text: 'Des femmes à queue de poisson',
-      }
-    }
+        text: '18 000 ans, ça remonte à longtemps avant Jésus-Christ',
+        correct: true,
+      },
+    },
   },
   {
     question: {
-      text: "Qui a inventé la machine de Tesla ?"
+      text: 'Mais au fait, que signifie le terme Wi-Fi ?',
     },
     answers: {
       a: {
-        text: "Nikola Tesla",
-        correct: true
+        text: `C'est un jeu de mot avec Hi-Fi`,
+        correct: true,
       },
       b: {
-        text: "Isaac Newton"
+        text: `De William Herschel & Finn Thomas (car oui, c'est un prénom)`,
       },
       c: {
-        text: "Léonard de Vinci"
+        text:
+          "C'est deux fois le mot oui modifié : une fois en français, une fois en Croate, car telles étaient les origines des inventeurs",
       },
       d: {
-        text: "Tikola Nesla"
-      }
-    }
+        text: `"Internet local network" mais ils se sont trompé dans l'acronyme`,
+      },
+    },
   },
   {
     question: {
-      text: "Quel est l'effet de l'incantation druidesque \"Glam Dicinn\" ?"
+      text: 'Laquelle de ces propositions est fausse ?',
     },
     answers: {
       a: {
-        text: "Elle guérit de la peste"
+        text:
+          'La Chine possède des camps de détox pour les personnes addicts à Internet',
       },
       b: {
-        text: "Elle permet de communiquer avec les animaux"
+        text: `En 2018, l'Algérie a coupé Internet pendant les épreuves du bac pour empêcher la triche`,
       },
       c: {
-        text: "Elle provoque instantanément une éruption de furoncles",
-        correct: true
+        text: `La connexion est meilleure sur la station spatiale internationale qu'en Australie`,
       },
       d: {
-        text: "Elle bénit la chasse aux poulemouthes"
-      }
-    }
+        text: `La norvège dispense des peines d'intérêt général : modérer les contenus sensibles sur les réseaux sociaux`,
+        correct: true,
+      },
+    },
   },
   {
     question: {
-      text: "Combien de kilogrammes de fromage sont produits en France chaque seconde ?"
+      text: 'Que signifie le code HTTP 418 ?',
     },
     answers: {
       a: {
-        text: "53,7"
+        text: 'Resource not found',
       },
       b: {
-        text: "0,9"
+        text: 'Resource went on vacation',
       },
       c: {
-        text: "16,2"
+        text: 'Resource is a reptilian',
       },
       d: {
-        text: "6,3",
-        correct: true
-      }
-    }
+        text: `I'm a teapot`,
+        correct: true,
+      },
+    },
   },
   {
     question: {
-      text: "Quel est le record du monde du plus gros concert ?"
+      text: "Et le mot bluetooth lui, il vient d'où ?",
     },
     answers: {
       a: {
-        text: "AC/DC"
+        text: `De l'expression américaine avoir la dent bleue, qui signifie établir des liens facilement avec les autres`,
       },
       b: {
-        text: "Jean-Michel Jarre",
-        correct: true
+        text: 'De Harald à la dent bleue, un mec danois plutôt stylé',
+        correct: true,
       },
       c: {
-        text: "The Rolling Stones",
+        text:
+          "D'une publicité pour dentifrice qui faisait beaucoup rire les inventeurs",
       },
       d: {
-        text: "Les Inconnus"
-      }
-    }
-  }
+        text:
+          'De Internet Local Network, encore un acronyme qui a mal tourné...',
+      },
+    },
+  },
 ];
 
 export default nuggets;

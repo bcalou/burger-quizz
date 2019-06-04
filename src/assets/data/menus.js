@@ -1,73 +1,116 @@
 const menus = {
   a: {
-    title: "Les Métiers",
+    title: 'Mystères du CSS',
     questions: [
       {
         question: {
-          text: "Quelle profession a exercé Jimmy Carter avant de devenir le 39e président des USA ?",
-        }
+          text: `Qu'on en commun les unités CSS suivantes : ch, ex, em ?`,
+        },
       },
       {
         question: {
-          text: "Citez-nous trois métiers disparus"
-        }
+          text: `Quelle est la couleur la plus foncée : grey ou darkgrey ?`,
+        },
       },
       {
         question: {
-          text: "Mais que fait un feutier ??"
-        }
+          text: `Un block de margin-bottom: 30px est suivi par un block de margin-top: 50px. Quel est l'espace entre les deux ?`,
+        },
       },
       {
         question: {
-          text: "Quel métier n'est exercé par absolument personne ?"
-        }
+          text: `En dessous d'Internet Explorer 10, on ne peut pas mettre plus de 4 096 sélecteurs CSS. Vrai ou faux ?`,
+        },
       },
       {
         question: {
-          text: "Comment s'appelle la personne qui met en place la tapisserie d'ameublement, réalise des garnitures et des couvertures de siège ou tout autre meuble recouvert de tissu ou de cuir ?"
-        }
+          text: `D'après une analyse de près de 3 millions de pages menée en 2017, quelle est la propriété CSS la plus utilisée ?`,
+        },
       },
-    ]
+      {
+        question: {
+          text:
+            'Un brouillon existe au W3C pour introduire le mot clé !veryimportant. Vrai ou faux ?',
+        },
+      },
+    ],
   },
   b: {
-    title: "Les Murs",
+    title: 'Quelle heure est-il ?',
     questions: [
       {
         question: {
-          text: "Donnez-nous trois objets utiles au maçon"
-        }
+          text:
+            'Combien de jours différents peuvent avoir lieu sur Terre en même temps ?',
+        },
       },
       {
         question: {
-          text: "Quelle est la longueur de la Grande Muraille ?"
-        }
+          text: 'La Timezone du Népal est +5h45, vrai ou faux ?',
+        },
       },
       {
         question: {
-          text: "Comment s'appellent ces ouvertures dans les murs de fortifications permettant l'utilisation d'armes à feu contre l'assaillant ?"
-        }
+          text:
+            'Il est possible de "bricker" certains smartphones de manière irréversible en paramétrant leur date au 1er janvier 1970. Pourquoi donc ?',
+        },
       },
       {
         question: {
-          text: "Quel groupe britannique sort en 1979 l'album \"The Wall\" ?"
-        }
+          text: 'Il est parfois 23:59:60. Vrai ou faux ?',
+        },
       },
       {
         question: {
-          text: "En quelle année le mur de Berlin est-il tombé ?"
-        }
+          text:
+            'À quelle heure évite t-on de prévoir des tâches automatiques répétées chaque jour dans les systèmes informatiques ?',
+        },
       },
       {
         question: {
-          text: "How do you say \"blackberry\" in french ?"
-        }
-      }
-    ]
+          text: '1900 est une année bissextile, vrai ou faux ?',
+        },
+      },
+    ],
   },
   c: {
-    title: "Renault Safrane, une voiture qu'elle est bien pour la conduire",
-    questions: []
-  }
+    title:
+      'Propriétés CSS et balises HTML utilisées par personne à part peut-être un mec en 1998',
+    questions: [
+      {
+        question: {
+          text:
+            'Quel tag HTML du moyen-âge servait à faire défiler du texte horizontalement sur une page, sans CSS ?',
+        },
+      },
+      {
+        question: {
+          text: 'À quoi sert la balise <samp> ?',
+        },
+      },
+      {
+        question: {
+          text: `Que représente l'unité de mesure ic ?`,
+        },
+      },
+      {
+        question: {
+          text: 'À quoi sert la propriété CSS isolation ?',
+        },
+      },
+      {
+        question: {
+          text:
+            'Quel tag HTML de la préhistoire permet de faire clignoter un élément, sans CSS ?',
+        },
+      },
+      {
+        question: {
+          text: 'À quoi peut bien servir le vieux tag <applet> ?',
+        },
+      },
+    ],
+  },
 };
 
 export default menus;
