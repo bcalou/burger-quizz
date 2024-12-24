@@ -1,112 +1,116 @@
 const menus = {
   a: {
-    title: 'Mystères du CSS',
+    title: "Flims de Noël",
     questions: [
       {
         question: {
-          text: `Qu'on en commun les unités CSS suivantes : ch, ex, em ?`,
-        },
-      },
-      {
-        question: {
-          text: `Quelle est la couleur la plus foncée : grey ou darkgrey ?`,
-        },
-      },
-      {
-        question: {
-          text: `Un block de margin-bottom: 30px est suivi par un block de margin-top: 50px. Quel est l'espace entre les deux ?`,
-        },
-      },
-      {
-        question: {
-          text: `En dessous d'Internet Explorer 10, on ne peut pas mettre plus de 4 096 sélecteurs CSS. Vrai ou faux ?`,
-        },
-      },
-      {
-        question: {
-          text: `D'après une analyse de près de 3 millions de pages menée en 2017, quelle est la propriété CSS la plus utilisée ?`,
+          text:
+            "Comment se surnomment les cambrioleurs de Maman j'ai raté l'avion ? Indice : un duo musical français leur a piqué le nom.",
         },
       },
       {
         question: {
           text:
-            'Un brouillon existe au W3C pour introduire le mot clé !veryimportant. Vrai ou faux ?',
+            "Quel flim de 1946, dans lequel James Stewart découvre ce qu'aurait été le monde sans son existence, est un tradionnel film de Noël aux États-Unis ?",
+        },
+      },
+      {
+        question: {
+          text: "Dans quelle ville John McClane passe-t-il un Noël des plus mémorables ?",
+        },
+      },
+      {
+        question: {
+          text:
+            "Citez cinq acteurs et actrices présents dans le Père Noël est une ordure",
+        },
+      },
+      {
+        question: {
+          text: "Cocorico. Pouvez-vous citer UN autre flim de Noël français ?",
+        },
+      },
+      {
+        question: {
+          text:
+            "Dans Maman j'ai raté l'avion, quel type de transport aérien le pauvre petit Kevin a-t-il raté ?",
         },
       },
     ],
   },
   b: {
-    title: 'Quelle heure est-il ?',
+    title: "Noël, entre tradition et modernité",
     questions: [
       {
         question: {
           text:
-            'Combien de jours différents peuvent avoir lieu sur Terre en même temps ?',
+            "Quelle est le nom du Père Noël aux États-Unis ?",
         },
       },
       {
         question: {
-          text: 'La Timezone du Népal est +5h45, vrai ou faux ?',
-        },
-      },
-      {
-        question: {
-          text:
-            'Il est possible de "bricker" certains smartphones de manière irréversible en paramétrant leur date au 1er janvier 1970. Pourquoi donc ?',
-        },
-      },
-      {
-        question: {
-          text: 'Il est parfois 23:59:60. Vrai ou faux ?',
+          text: "Dans quel pays les cadeaux sont-ils apportés par les rois mages le 6 janvier ?",
         },
       },
       {
         question: {
           text:
-            'À quelle heure évite t-on de prévoir des tâches automatiques répétées chaque jour dans les systèmes informatiques ?',
+            'En Pologne, on laisse généralement une place vide à table le soir du réveillon. Pourquoi ?',
         },
       },
       {
         question: {
-          text: '1900 est une année bissextile, vrai ou faux ?',
+          text:
+            "Quelle est l'ortographe du calendrier, vous savez celui avec les chocolat qu'il faut manger dans l'ordre et que même des fois on triche car on est finalement dans une société d'addiction au sucre ? Le calendrier de...",
+        },
+      },
+      {
+        question: {
+          text: "Le Père Noël serait rouge à cause de Coca-Cola. Vraie info ou fake news ?",
+        },
+      },
+      {
+        question: {
+          text:
+            "Qu'est ce qui était à la places de boules de Noël, avant que ça ne devienne la mode au XIXe siècle ?",
         },
       },
     ],
   },
   c: {
     title:
-      'Propriétés CSS et balises HTML utilisées par personne à part peut-être un mec en 1998',
+      "AVC, AIT, IVRS et autres acronymes médicaux qui mettent une mauvaise ambiance",
     questions: [
       {
         question: {
-          text:
-            'Quel tag HTML du moyen-âge servait à faire défiler du texte horizontalement sur une page, sans CSS ?',
+          text: "",
         },
       },
       {
         question: {
-          text: 'À quoi sert la balise <samp> ?',
-        },
-      },
-      {
-        question: {
-          text: `Que représente l'unité de mesure ic ?`,
-        },
-      },
-      {
-        question: {
-          text: 'À quoi sert la propriété CSS isolation ?',
+          text: "",
         },
       },
       {
         question: {
           text:
-            'Quel tag HTML de la préhistoire permet de faire clignoter un élément, sans CSS ?',
+            "",
         },
       },
       {
         question: {
-          text: 'À quoi peut bien servir le vieux tag <applet> ?',
+          text: "",
+        },
+      },
+      {
+        question: {
+          text:
+            "",
+        },
+      },
+      {
+        question: {
+          text: "",
         },
       },
     ],

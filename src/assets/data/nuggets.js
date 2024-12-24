@@ -1,126 +1,124 @@
 const nuggets = [
   {
     question: {
-      text: `Lequel de ces mots ne désigne pas une tentative d'obtenir des informations sensibles de la part d'un utilisateur grâce à un faux site ?`,
+      text: "Lequel de ces instruments est joué sans êtte touché ?",
     },
     answers: {
       a: {
-        text: 'Le phishing',
+        text: "L'harmonium",
       },
       b: {
-        text: `L'hameçonnage`,
-      },
-      c: {
-        text: `Le fouinage`,
+        text: "Le thérémine",
         correct: true,
       },
+      c: {
+        text: "Le vibraphone",
+      },
       d: {
-        text: 'Le filoutage',
+        text: "Un melon",
       },
     },
   },
   {
     question: {
-      text: 'En un an, quelle durée de vidéo est uploadée sur Youtube ?',
+      text: "Combien recense-t-on de milliardaires dans le monde ?",
     },
     answers: {
       a: {
-        text: 'Un an, parce que Youtube traite les vidéos une par une',
+        text: "Un milliard",
       },
       b: {
-        text: "89 ans, presque aussi long que la vie de la reine d'Angleterre",
+        text: "17540",
       },
       c: {
-        text:
-          '350 ans, à cette époque là la Bastille était encore debout mon bon monsieur',
+        text: "2668",
+        correct: true,
       },
       d: {
-        text: '18 000 ans, ça remonte à longtemps avant Jésus-Christ',
-        correct: true,
+        text: "359",
       },
     },
   },
   {
     question: {
-      text: 'Mais au fait, que signifie le terme Wi-Fi ?',
+      text: "D'où viennent les 42,125km du marathon ?",
     },
     answers: {
       a: {
-        text: `C'est un jeu de mot avec Hi-Fi`,
-        correct: true,
+        text: "C'est la distance qu'il a couru le mec grec là jusqu'à marathon",
       },
       b: {
-        text: `De William Herschel & Finn Thomas (car oui, c'est un prénom)`,
+        text:
+          "C'était la distance entre le chateau de Windsor et l'arrivée à Londres en 1908",
+        correct: true,
       },
       c: {
-        text:
-          "C'est deux fois le mot oui modifié : une fois en français, une fois en Croate, car telles étaient les origines des inventeurs",
+        text: "C'est 100 longueurs de stade olympique antique",
       },
       d: {
-        text: `"Internet local network" mais ils se sont trompé dans l'acronyme`,
+        text:
+          "C'est la distance entre ce gîte et la plus proche trace de vie intelligente",
       },
     },
   },
   {
     question: {
-      text: 'Laquelle de ces propositions est fausse ?',
+      text: "En quelle tonalité est le fameux James Bond Theme ?",
     },
     answers: {
       a: {
-        text:
-          'La Chine possède des camps de détox pour les personnes addicts à Internet',
+        text: "En mi majeur",
       },
       b: {
-        text: `En 2018, l'Algérie a coupé Internet pendant les épreuves du bac pour empêcher la triche`,
+        text: "En mi mineur",
+        correct: true,
       },
       c: {
-        text: `La connexion est meilleure sur la station spatiale internationale qu'en Australie`,
+        text: "En mimolette",
       },
       d: {
-        text: `La norvège dispense des peines d'intérêt général : modérer les contenus sensibles sur les réseaux sociaux`,
-        correct: true,
+        text: "En mi touflé",
       },
     },
   },
   {
     question: {
-      text: 'Que signifie le code HTTP 418 ?',
+      text: "Dans Chat GPT, que veux dire GPT ?",
     },
     answers: {
       a: {
-        text: 'Resource not found',
+        text: "Geomorphic Phrasing Translation",
       },
       b: {
-        text: 'Resource went on vacation',
+        text: "Groundbreaking Pseudo Turing",
       },
       c: {
-        text: 'Resource is a reptilian',
+        text: "Generative Pre-Trained Transformer",
+        correct: true,
       },
       d: {
-        text: `I'm a teapot`,
-        correct: true,
+        text: "Gros prout tonitruant",
       },
     },
   },
   {
     question: {
-      text: "Et le mot bluetooth lui, il vient d'où ?",
+      text: "Qu'a déclaré l'ex-ministre de la santé ce matin même ?",
     },
     answers: {
       a: {
-        text: `De l'expression américaine avoir la dent bleue, qui signifie établir des liens facilement avec les autres`,
+        text: "J'avais annoncé ne pas faire de miracle, j'ai tenu ma promesse",
       },
       b: {
-        text: 'De Harald à la dent bleue, un mec danois plutôt stylé',
+        text: "Je ne m'attendais à rien mais je suis quand même décue",
         correct: true,
       },
       c: {
         text:
-          "D'une publicité pour dentifrice qui faisait beaucoup rire les inventeurs",
+          "La seule chose que j'ai eu le temps de faire monter en 3 mois, c'est ma tension",
       },
       d: {
-        text:
-          'De Internet Local Network, encore un acronyme qui a mal tourné...',
+        text: "Aaaaaah putain le con (elle pensait que son micro était off)",
       },
     },
   },
